@@ -83,15 +83,18 @@ No Link, Project can be found in website/index.html
 
 Stretch Questions
     1. What is the difference between an inline element and a block element?
-
+        Inline elements 'go with the flow' and do not move the contents to a new line.
+        Block elements places the content on a new line and will fill that line completely.
     2. What happens when an element is positioned absolutely? 
-
+        It is positions relative to nearest 'parent' element, if no parent the body.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-
+        There are a few ways to accomplish this. Using the box model concept with flex box is one way.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-
+        Display as block by default: section, nav, div
+        Display as inline by default:  span, button
+        Display as inline-block by default: img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+        The box model places html elements into structures boxes that utilize margin, border, padding, and content spacing to get the look you are going  for. The box-sizing: border-box helps us work with the box model because it includes things like padding and borders in the calculation width.
 
 
    --> 
